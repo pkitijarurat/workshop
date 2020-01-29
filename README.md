@@ -5,5 +5,5 @@
 ### Pecharat Kitijarurat
 
 ### Responses to Readings
-[Blumenstock response](https://pkitijarurat.github.io/workshop/)
+[Blumenstock response](https://pkitijarurat.github.io/workshop/blumenstock)
 
