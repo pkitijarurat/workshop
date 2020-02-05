@@ -5,7 +5,6 @@
 ### Pecharat Kitijarurat
 
 ### Responses to Readings
-[Blumenstock response](https://pkitijarurat.github.io/workshop/blumenstock)
-
-[Jahan Response](https://pkitijarurat.github.io/workshop/jahan_response)
+1. [Blumenstock response](https://pkitijarurat.github.io/workshop/blumenstock)
+2. [Jahan Response](https://pkitijarurat.github.io/workshop/jahan_response)
 
