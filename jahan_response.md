@@ -18,3 +18,4 @@ Hans Rosling gave many examples about how wealth correlates strongly with health
 
 
 
+
