@@ -11,5 +11,5 @@
 
 
 ### Assignments
-1. [Annotated Bibliography](https://pkitijarurat.github.io/workshop/annotatedbib)
+1. [Annotated Bibliography](https://pkitijarurat.github.io/workshop/annotatedBib)
 
