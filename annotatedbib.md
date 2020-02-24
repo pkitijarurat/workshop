@@ -3,7 +3,7 @@
 Pecharat Kitijarurat
 
 
-### Problem Statement
+#### Problem Statement
 
 Malaria is a highly infectious disease where parasites, such as *p. falciparum*, are transmitted by mosquitoes. The main cause for transmission of this disease is human transport through the high, and ever growing, connectivity between regions. This disease is currently prevalent in sub-Saharan Africa, where specific characteristics of Africa, such as ecological and environmental covariates, encourage the incubation of mosquitoes and parasites. Data science, such as the use of mobile phone data to map human movement, or satellite imaging to determine water sources, can help gather information needed to design and implement intervention methods for the elimination of this disease. However, resources and costs are often limited, thus the research question to be explored is: **What is the most effective way of gathering, monitoring, and decision-making for decreasing malaria prevalence in sub-Saharan Africa?**
 
