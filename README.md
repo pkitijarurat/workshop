@@ -9,3 +9,7 @@
 2. [Jahan Response](https://pkitijarurat.github.io/workshop/jahan_response)
 3. [Barder Response](https://pkitijarurat.github.io/workshop/barder)
 
+
+### Assignments
+1. [Annotated Bibliography] (https://pkitijarurat.github.io/workshop/annotatedbib)
+
