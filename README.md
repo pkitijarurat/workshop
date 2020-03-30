@@ -10,6 +10,7 @@
 3. [Barder Response](https://pkitijarurat.github.io/workshop/barder)
 4. [Anderson and Kitchin Response](https://pkitijarurat.github.io/workshop/kitchin)
 5. [Stevens et al. Response](https://pkitijarurat.github.io/workshop/stevens) 
+6. [Nieves et al. Response] (https://pkitijarurat.github.io/workshop/nieves)
 
 
 ### Assignments
