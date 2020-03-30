@@ -1,0 +1,7 @@
+##### Our question related to the reading for today.  Nieves et a. use the random forest machine learning method to predict what value globally?  Describe in detail how random forest works.  What is a dasymmetric population allocation? Which geospatial covariates proved to be the most important when predicting global values of where humans reside?
+
+Nieves et al. use the random forest machine learning method to quantify the relative importance of drivers and covariates to predict population densities across countries.
+
+Random forest is an 'ensemble' method. First, it goes through all covariates available and selects only those with importance. this results in the minimum number of covariates which have predictive capacity and eliminates useless covariates. Then, decision trees are grown, these are used to predict log population density for each pixel. A country-wide population density map is then used as a weighting layer. This map is then used for dasymetric redistribution of population counts. Dasymmetric population allocation is the geospatial technique that uses covariates, such as land cover, to more accurately distribute population densities in a selected administrative bounday.
+
+The most important covariates for predicting population densities are built areas and urban areas and climatic/environmental covariates. These covariate classes were significantly more important than other classes of covariates.
