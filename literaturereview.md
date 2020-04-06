@@ -12,7 +12,7 @@ The purpose of this research is to improve upon the use of sub-national househol
 
 
 
-##### Human Development Process
+#### Human Development Process
 
 Malaria prevalence is found in countries all over Sub-Saharan Africa. Many of these countries have implemented intervention methods to reduce the spread of malaria, specifically to children under the age of 5 because they are the most vulnerable. Since 2000, there has been an increase in effective malaria control and a decline in global mortality rates due to malaria. For example, the Swaziland National Malaria Control Program reports a deline in malaria cases of 2.9 to 0.07 per 1000 people since 1999. Some intervention methods include, but not limited to, indoor residual spraying (IRS), insecticide-treated bed nets (ITNs), long-lasting insecticidal nets (LLINs), and vaccinations.
 
@@ -30,9 +30,9 @@ In this study, vector control is the main focus, and is central to the Global Te
 
 Intervention programs are the reason that the prevalence of malaria infections have decreased in sub-Saharan Africa. Sub-saharan Africa has the most effificient malaria vector species, and these species prefer indoor biting. The Global Technical Strategy (GTS) focuses on vector control as their number one strategy to try to eliminate the disease.
 
-##### Geospatial Data Science Methods
+#### Geospatial Data Science Methods
 
-###### <u>Bayesian hierarchical generalized mixed model with spatio-temporal effects used to predict continuous maps of vector densities [3]</u>
+##### <u>Bayesian hierarchical generalized mixed model with spatio-temporal effects used to predict continuous maps of vector densities [3]</u>
 
 This method is carried out by first starting surveys in areas of high stable malaria transmission intensity. In this study, they focused on Nagongera, a sub-county region in Eastern Uganda. This area is unique because it has an altitude of 1095 meters above sea level, is dominated by subsistence farming, has 2 rainy seasons averaging 1000-15000 mm rainfall annually, and an average temperature of 23 degrees celsius. This region's specific characteristics contributes to two distinct malaria transmission peaks. The first transmission peak is during the longer wet season of March to June, and the second peak is during the second wet season of November to December.
 
@@ -42,5 +42,42 @@ Along with collecting entomology survey data, climatic and environmental covaria
 
 Afterwards, a Bayesian inference was performed using integrated nested Laplace approximations (INLA), and model goodness-of-fits were assessed to validate the models. Root mean sqaure error (RMSE) was also utilised.
 
-###### <u>Data and spatially matched covariates used in Bayesian hierarchical spatio-temporal models to map population age-structure densities for health development applications</u>
+##### <u>Data and spatially matched covariates used in Bayesian hierarchical spatio-temporal models to map population age-structure densities for health development applications</u> [6]
+
+A 2006 study in Nigeria used Bayesian hierarchical spatio-temporal models to map popluation age-structure densities for malaria interventions. Data of populations of children under 5 were obtained from 3 nationally-represented household surveys: 2008 DHS, 2010 MIS, and 2010 LSMS-ISA panel. In these surveys, clusters were formed, and then a random sample of these households were selected within each cluster. The proportion of children under 5 for each household was then calculated for all households in a cluster.
+
+After estimating the proportion of children under 5 for each cluster, covariates were selected that wree found to have a high correlation to the proprotion of the population under 5 years. These include land-use, urbanizations, vegetation indices, climatic conditions, socioeconomic factors, and distance to roads. Covariates were selected via a non-spatial generalized linear regression model (*glm*) and then these covariates were used in the Bayesian approach. Furthermore, the *glm* model with the lowest BIC was selected after covariates were regressed against proportion of under 5 years old. This method produced continuous maps of the estimated proportion of the population implemented through SPDE with INLA, and has a high resolution of 1x1 km grid squares.
+
+Model validation methods were also conducted to ensure that maps are sufficient. The deviance information criterion (DIC) was calculated, along with mean absolute data (MAE) and RMSE to asses bias and accuracy of models. In the end, the application of these models was focused on two intervention methods: distributions of ITNs for malaria prevention, and coverage of basic vaccination for childhood diseases.
+
+
+
+#### Discussion
+
+This literature review discusses the gathering of data, computing the data into maps, and then applying those maps to real-life strategies to improve health human development in the context of the malaria epidemic in Nigeria. This research has exposed some of the better methods in which to use during the human development process: nationally-represented household surveys has been proven to be more successful than past censuses, and using covariate correlations for estimations have shown to provide accurate predictions of densities for mapping. 
+
+Although these methods have been selected to be higher-grade, limitations still occur within these methods. For example, the sample sizes of nationally-representative surveys can cause variability and inaccuracy in estimating malaria prevalence, as seen in the Kenya MIS and Rwanda DHS [2]. As for the second geospatial data science method discussed in this literature review regarding covariate relationships in predicting age-structure densities, environmental factor relationships are not well understood, and thus not generalizable for different malaria settings yet. This is a significant issue often faced in the field of data science and human development due to high heterogeneity between regions.
+
+
+
+
+
+#### References
+
+1. Strano, E., Viana, M.P., Sorichetta, A. *et al.* Mapping road network communities for guiding disease surveillance and control strategies. *Sci Rep* **8,** 4744 (2018). https://doi.org/10.1038/s41598-018-22969-4
+2. Alegana, V.A., Wright, J., Bosco, C. *et al.* Malaria prevalence metrics in low- and middle-income countries: an assessment of precision in nationally-representative surveys. *Malar J* **16,** 475 (2017). https://doi.org/10.1186/s12936-017-2127-y
+3. Alegana, V.A., Kigozi, S.P., Nankabirwa, J. et al. Spatio-temporal analysis of malaria vector density from baseline through intervention in a high transmission setting. Parasites Vectors 9, 637 (2016). https://doi.org/10.1186/s13071-016-1917-3
+4. A. Wesolowski, et al. (October 12, 2012). Quantifying the Impact of Human Mobility on Malaria. Retrieved https://science.sciencemag.org/content/338/6104/267 
+5. Jr, R. C. R., Menach, A. L., Kunene, S., Ntshalintshali, N., Hsiang, M. S., Perkins, A., … Bryan Greenhouse. (2015, December 29). Mapping residual transmission for malaria elimination. Retrieved February 23, 2020, from https://elifesciences.org/articles/09520
+6. V. A. Alegana, P. M. Atkinson, C. Pezzulo, A. Sorichetta, *et al.* (2015) Fine resolution mapping of population age-structures for health and development applications. Retrieved from https://royalsocietypublishing.org/doi/pdf/10.1098/rsif.2015.0073
+7. L. S. Tusting, C. Bottomley, H. Gibson, I. Kleinschmidt, A. J. Tatem, S. W. Lindsay, and P. W. Gething. (February 21, 2017). Housing Improvements and Malaria Risk in Sub-Saharan Africa: A Multi-Country Analysis of Survey Data. Retrieved from https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002234
+8. A. J. Tatem, P. Jia, D. Ordanovich, M. Falkner, Z. Huand, and R. Howes. (October 21, 2016). The geography of imported malaria to non-endemic countries: a meta-analysis of nationally reported statistics. Retrieved from https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(16)30326-7/fulltext
+9. Lai, S., Wardrop, N., Huang, Z. *et al.* *Plasmodium falciparum* malaria importation from Africa to China and its mortality: an analysis of driving factors. *Sci Rep* **6,** 39524 (2016). https://doi.org/10.1038/srep39524
+10. Tatem, A.J., Qiu, Y., Smith, D.L. *et al.* The use of mobile phone data for the estimation of the travel patterns and imported *Plasmodium falciparum* rates among Zanzibar residents. *Malar J* **8,** 287 (2009). https://doi.org/10.1186/1475-2875-8-287
+
+
+
+
+
+
 
