@@ -15,4 +15,5 @@
 
 ### Assignments
 1. [Annotated Bibliography](https://pkitijarurat.github.io/workshop/annotatedBib)
+2. [Literature Review](https://pkitijarurat.github.io/workshop/literaturereview)
 
