@@ -36,7 +36,7 @@ Taken from Alegana et. al., "Spatio-temporal analysis of malaria vector density 
 
 **MODELLING:** To predict and create continuous maps of vector densities across the region, a Bayesian hierarchical generalised mixed model was used, incorporating spatial and temporal effects as well. First, mosquito counts were modelled as negative binomials using this formula: 
 
-![](https://twitter.com/pkeachy/status/1251995752764715008/photo/1)
+![](https://pbs.twimg.com/media/EV_7YwIWoAE5j6u?format=png&name=small)
 
 The product of this formula was then used for the general mixed effect regression model using the following formula:
 
@@ -46,15 +46,15 @@ combining covariates and spatial temporal effect. Overall, these results were us
 
 After the IRS campaign, the proportion of individuals using LLINs were included as a continuous variable, as well as a temporal effect of month. These were modelled with an autoregressive model. Next, these models were used in a Bayesian inference process that used the integrated nested Laplace approximations (INLA). Instead of using Markov chain Monte Carlo (MCMC) algorithms, INLA was used due to its computational advantages.
 
-![](/Users/pecharatkitijarurat/Desktop/Screen Shot 2020-04-19 at 3.23.36 PM.png)
+![](https://pbs.twimg.com/media/EV_7b8KWAAAM5_z?format=jpg&name=small)
 
-![](/Users/pecharatkitijarurat/Desktop/Screen Shot 2020-04-19 at 3.24.51 PM.png)
+![](https://pbs.twimg.com/media/EV_7dg7WsAAH8oi?format=jpg&name=small)
 
 **RESULTS:** Major reductions of malaria densities occured where IRS (bendiocarb) was introduced with high coverage use of LLINs.
 
 **VALIDATION AND ASSESSMENT:** The goodness-of-fits of the model were assed using deviance information criterion (DIC) and marginal likelihood. For validation, a subset dataset was created where 20 households were randomly selected from the original sample of households. Further validation utilised statistics including the correlation between predicted/observed vector densities, and RMSE (root mean square error).
 
-![Screen Shot 2020-04-19 at 3.25.22 PM](/Users/pecharatkitijarurat/Library/Application Support/typora-user-images/Screen Shot 2020-04-19 at 3.25.22 PM.png)
+![](https://pbs.twimg.com/media/EV_8kOVWoAInzjb?format=jpg&name=medium)
 
 **ADVANTAGES:** Using this approach, the data scientists are able to quantify uncertainties of the parameters of interest and include missing data points (NAs).
 
