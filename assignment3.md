@@ -36,7 +36,7 @@ Taken from Alegana et. al., "Spatio-temporal analysis of malaria vector density 
 
 **MODELLING:** To predict and create continuous maps of vector densities across the region, a Bayesian hierarchical generalised mixed model was used, incorporating spatial and temporal effects as well. First, mosquito counts were modelled as negative binomials using this formula: 
 
-![](https://pbs.twimg.com/media/EV_7YwIWoAE5j6u?format=png&name=small)
+![](https://pbs.twimg.com/media/EV_9sqkXgAIvbBW?format=png&name=small)
 
 The product of this formula was then used for the general mixed effect regression model using the following formula:
 
