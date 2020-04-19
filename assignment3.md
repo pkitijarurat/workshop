@@ -36,19 +36,19 @@ Taken from Alegana et. al., "Spatio-temporal analysis of malaria vector density 
 
 **MODELLING:** To predict and create continuous maps of vector densities across the region, a Bayesian hierarchical generalised mixed model was used, incorporating spatial and temporal effects as well. First, mosquito counts were modelled as negative binomials using this formula: 
 
-![](file:///Users/pecharatkitijarurat/Library/Application%20Support/typora-user-images/Screen%20Shot%202020-04-19%20at%203.10.45%20PM.png)
+![](https://twitter.com/pkeachy/status/1251995752764715008/photo/1)
 
 The product of this formula was then used for the general mixed effect regression model using the following formula:
 
-<img src="/Users/pecharatkitijarurat/Library/Application Support/typora-user-images/Screen Shot 2020-04-19 at 3.12.57 PM.png" alt="Screen Shot 2020-04-19 at 3.12.57 PM" style="zoom:50%;" />
+![](https://pbs.twimg.com/media/EV_7af1XQAEgpQJ?format=png&name=small)
 
 combining covariates and spatial temporal effect. Overall, these results were used in the government indoor residual spraying (IRS) campaign (using cabamate bendiocarb) in 2014-15 in Uganda.
 
 After the IRS campaign, the proportion of individuals using LLINs were included as a continuous variable, as well as a temporal effect of month. These were modelled with an autoregressive model. Next, these models were used in a Bayesian inference process that used the integrated nested Laplace approximations (INLA). Instead of using Markov chain Monte Carlo (MCMC) algorithms, INLA was used due to its computational advantages.
 
-![Screen Shot 2020-04-19 at 3.23.36 PM](/Users/pecharatkitijarurat/Desktop/Screen Shot 2020-04-19 at 3.23.36 PM.png)
+![](/Users/pecharatkitijarurat/Desktop/Screen Shot 2020-04-19 at 3.23.36 PM.png)
 
-![Screen Shot 2020-04-19 at 3.24.51 PM](/Users/pecharatkitijarurat/Desktop/Screen Shot 2020-04-19 at 3.24.51 PM.png)
+![](/Users/pecharatkitijarurat/Desktop/Screen Shot 2020-04-19 at 3.24.51 PM.png)
 
 **RESULTS:** Major reductions of malaria densities occured where IRS (bendiocarb) was introduced with high coverage use of LLINs.
 
