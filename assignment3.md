@@ -1,5 +1,7 @@
 # Assignment 3
 
+Pecharat Kitijarurat
+
 ## Introduction 
 
 Diseases can spread in any country or region on the globe. Where there are humans inhabitant, diseases can spread from human to human. The majority of the disease spread is contributed by vast human connectivity and travel patterns. Thus, a good way to try and prevent epidemics to occur is to gather more information about how a disease is spread. This can be done through measuring and mapping human networks and travel patterns. This method is seen in spatial epidemiology, a field that is concerned with diseases and its geographic variations. An important idea in spatial epidemiology is that each region come with its own contextualized geography and set of conditions that affect how a disease is born, incubated, and spread. A quality that is consistently found across studies is that there is high heterogeneity between countries, and even between regions of a country. This makes the characteristics of each disease highly contextualized to the area being studied.
