@@ -70,15 +70,15 @@ The study mainly used to analyze nationally representative surveys is Alegana et
 
 **PROCESSING THE DATA:** The data was combined and processed through simple random spatial sampling at the cluster level. ARCGIS 10 was used for spatial random sampling (SRS). 30% subset samples, as well as 20% and 40%, was used for malaria prevalence estimation under SRS for the three indicators. The remaining 70% sample was used for simulation by utilising the Bayesian MCMC algorithm and generating survey effectiveness. This was then used to create posterior distrubution used for inference. The inferences includes summary statistics of the distribution of the cluster posterior variance, indicators, intra-class correlation coefficient (ICC), survey design effect (*deff*), and estimate of the effective sample size (ESS).
 
-![Screen Shot 2020-04-19 at 5.19.03 PM](/Users/pecharatkitijarurat/Library/Application Support/typora-user-images/Screen Shot 2020-04-19 at 5.19.03 PM.png)
+![](https://pbs.twimg.com/media/EV_88utX0AkmWLc?format=png&name=900x900)
 
 **MODELLING:** The Bayesian hierarchical model was utilised with the MCMC algorithm. The JAGs version and *R2jags* package in R version was used. The ICC was estimated for total variability between- and within- clusters based on indicators, and adjusting for age, and survey domain stratification (urban/rural). An ICC of 0 indicates no correlation between/within clusters. To model household survey effectiveness parameters, the *deff* was modelled based on ICC estimates, which was then used to derive the optimal sample size. A *deff* close to 1 suggests similarity to simple random sampling.
 
-![Screen Shot 2020-04-19 at 5.19.42 PM](/Users/pecharatkitijarurat/Library/Application Support/typora-user-images/Screen Shot 2020-04-19 at 5.19.42 PM.png)
+![](https://pbs.twimg.com/media/EV_88vsXYAMQPAJ?format=jpg&name=large)
 
 **RESULTS:** The ICC for the 3 indicators range from 0-0.05, where 0 indicates no correlation between reponses. Larger ICC values correlate to a larger prevalence. The ICC for ESS was plotted, showing a wide range as a result of different ESS. As seen from the analysis of malaria indicators and ESS, variability at cluster level actually has an impact on the desired sample size for that specific indicator.  
 
-![Screen Shot 2020-04-19 at 5.31.36 PM](/Users/pecharatkitijarurat/Library/Application Support/typora-user-images/Screen Shot 2020-04-19 at 5.31.36 PM.png)
+![](https://pbs.twimg.com/media/EV_88xEXQAUyqi2?format=jpg&name=large)
 
 **GAPS AND FURTHER RESEARCH:** As seen in the results, cluster-level variability effects ESS. The problem emerges that this method requires large sample sizes to support monitoring efforts of interventions, but reduces with the increasing use of interventions. Contrastly, required sample size increases with declining prevalence of the indicator. Thus, defining sample sizes for different MIS will increase precision in detecting prevalence, and this must be researched further. This study further suggests to explore the use of biomarkers to optimize malaria surveys.
 
